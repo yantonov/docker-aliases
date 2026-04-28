@@ -6,12 +6,12 @@
 dangling_images="images -f dangling=true -q"
 stopped_containers="ps -f status=exited -q"
 running_containers="ps -f status=running -q"
-# gc (garbage collector) remove dangling images
-gcdi="!docker dangling_images | xargs -n 1 docker rmi"
-# gc (garbage collector) remove stopped containers
-gcsc="!docker stopped_containers | xargs -n 1 docker rm"
 stopall="!docker running_containers | xargs -n 1 docker stop"
 psn="ps --format=\"{{.Names}}\""
 prune_all="system prune -a"
 purge="!docker prune_all"
+
+[alias.gc] # garbage collector
+i="!docker dangling_images | xargs -n 1 docker rmi" # remove dangling images
+c="!docker stopped_containers | xargs -n 1 docker rm" # remove stopped containers
 
