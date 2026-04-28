@@ -1,4 +1,4 @@
-Here are some aliases for [docker](https://www.docker.com/).
+[Here](https://github.com/yantonov/docker-aliases/blob/master/config.toml) are some aliases for [docker](https://www.docker.com/).
 
 ### Usage:
 1. add this repository to the front of PATH
