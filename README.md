@@ -7,7 +7,7 @@
 ```bash
     install.sh
 ```
-script that downloads latest alias distribution for the current operating system names it in appropriate way and puts to the current directory  
+script that downloads latest [alias](http://github.com/yantonov/alias) distribution for the current operating system names it in appropriate way and puts to the current directory  
 
 Alternatively, you can:  
 a) build [alias](http://github.com/yantonov/alias) manually (or use the available distribution)  
