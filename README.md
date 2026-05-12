@@ -1,6 +1,14 @@
+### About
 [Here](https://github.com/yantonov/docker-aliases/blob/master/config.toml) are some aliases for [docker](https://www.docker.com/).
 
-### Usage:
-1. add this repository to the front of PATH
-2. build [alias](http://github.com/yantonov/alias) artifact (or use the available distribution)
-3. name it as docker and put it into this repository (binary file has already ignored inside this repository)
+### Installation:
+1. clone and add this repository to the front of PATH
+2. use 
+```bash
+    install.sh
+```
+script that downloads latest alias distribution for the current operating system names it in appropriate way and puts to the current directory  
+
+Alternatively, you can:  
+a) build [alias](http://github.com/yantonov/alias) manually (or use the available distribution)  
+b) name it as uv and put it into this repository (binary file has already ignored inside this repository)  
