@@ -12,3 +12,23 @@ script that downloads latest [alias](http://github.com/yantonov/alias) distribut
 Alternatively, you can:  
 a) build [alias](http://github.com/yantonov/alias) manually (or use the available distribution)  
 b) name it as `docker` and put it into this repository (binary file has already ignored inside this repository)  
+
+### Usage
+You can use aliases like they are supported out of the box.
+
+Examples:
+
+remove dangling images
+```bash
+    docker gc i
+```
+
+remove stopped containers
+```bash
+    docker gc c
+```
+
+cleanup (same as docker system prune -a)
+```bash
+    docker purge
+```
